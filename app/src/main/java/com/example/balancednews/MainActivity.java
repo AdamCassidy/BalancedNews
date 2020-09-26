@@ -15,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ProgressBar progressBar = findViewById(R.id.progressBar)
+        ProgressBar progressBar = findViewById(R.id.progressBar);
         TextView txtTitle = findViewById(R.id.txtTitle);
         EditText editSearch = findViewById(R.id.editSearch);
-        editSearch.getText().toString()
+        editSearch.getText().toString();
 
     }
 
